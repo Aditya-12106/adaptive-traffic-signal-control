@@ -1,0 +1,76 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Build Files
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# YOLO / Training Artifacts
+# =========================
+runs/
+*.onnx
+*.engine
+
+# Optional: ignore model weights
+# Uncomment if you don't want to commit yolov8n.pt
+# *.pt
+
+# =========================
+# Cache
+# =========================
+.cache/
+
+# =========================
+# Logs
+# =========================
+*.log
+*.pt
+
+videos/*.avi
+videos/*.mp4
